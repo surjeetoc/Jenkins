@@ -19,7 +19,7 @@ pipeline {
             }
         }
     }
-    stage ('Deploy Build in Staging Area'){
+         stage ('Deploy Build in Staging Area'){
             steps{
 
                 build job : 'Deploy-tomcat-Piple'
